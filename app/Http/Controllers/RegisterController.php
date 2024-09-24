@@ -21,8 +21,6 @@ class RegisterController extends BaseController
      * 
      * @param \App\Http\Requests\Api\RegisterRequest $request
      * 
-     * @operationId RegisterRequest
-     * 
      * @return \Illuminate\Http\JsonResponse
      */
     public function register(Request $request): JsonResponse
